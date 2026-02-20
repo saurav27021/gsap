@@ -67,27 +67,33 @@
 //     stagger:0.3
 // })
 
-// var tl = gsap.timeline();
-// tl.to("#box",{
-//     x:1200,
-//     rotate:360,
-//     duration:1.5,
-//     delay:1
-// })
-// tl.to("#box2",{
-//     x:1200,
-//     rotate:360,
-//     duration:1.5,
-//     borderRadius:"50%"
+var tl = gsap.timeline();
+tl.to("#box",{
+    x:1200,
+    rotate:360,
+    duration:1.5,
+    delay:1,
+    yoyo:true,
+    repeat:-1
+})
+tl.to("#box2",{
+    x:1200,
+    rotate:360,
+    duration:1.5,
+    borderRadius:"50%",
+    yoyo:true,
+    repeat:-1
     
-// })
-// tl.to("#box3",{
-//     x:1200,
-//     rotate:360,
-//     duration:1.5,
+})
+tl.to("#box3",{
+    x:1200,
+    rotate:360,
+    duration:1.5,
+    yoyo:true,
+    repeat:-1
     
     
-// })
+})
 
 
 
