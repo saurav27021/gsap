@@ -4,7 +4,9 @@ gsap.to("#box",{
     delay:1
     
 })
-gsap.to("#box2",{
+// gsap.to ka matlab hai inital se final position ko ------->
+// gsap.from me final to initial jata hai <------------
+gsap.from("#box2",{
     x:1000,
     y:500,
     duration:2,
